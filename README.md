@@ -38,3 +38,97 @@ Typescript catches mistakes in your JavaScript code earlier on. Typescript has t
 
 -Typescript makes it easier to use React, Angular, and Vue. Typescript integrates well with these frameworks, particularly React, which has been described as a perfect fit with Typescript. The usage of Typescript is not mandatory for these frameworks, but it can add productivity and ease.
 
+## Data Types in Typescript
+
+### What are the data types of typescript
+
+When a variable is defined, the objective is to allocate some value to that variable, but the type of value that may be allocated to that variable is determined by its datatype. This type of system in typescript represents the many datatypes that TypeScript supports.
+
+#### Here are the data types supported in typescript:
+>Boolean
+
+>String
+
+>Number
+
+>Object
+
+>Array
+
+>Tuple
+
+>Enum
+
+>Any
+
+>Never
+
+>Union
+
+>Unknown
+
+### How do you declare data types in TypeScript?
+
+Here we will see how we can declare data types in typescript.
+
+In TypeScript, the type syntax for declaring a variable is a colon (:) followed by the variable’s type. To declare a variable, we use the var keyword in the same way as we do in Javascript.
+
+#### We can declare a variable with types in four ways:
+
+1. Declare both its type and value in a single sentence.
+
+## Example :
+
+```ts
+ var [identifier]: type annotation = value
+```
+
+2. Declare the type but not the value. The variable will be assigned to undefined in this situation.
+
+## Example :
+
+```ts
+var [identifier]: type annotation;
+```
+
+3. Declare the value but not the type. The data type of the assigned value will be set as the variable type.
+
+
+## Example :
+
+```ts
+var [identifier]= value
+```
+
+4. Declare neither the value nor the type. In this situation, the variable’s data type will be any and it will be set to undefine.
+
+## Example :
+
+```ts
+var identifier
+```
+
+
+### The syntax of writing the data type in Typesript:
+```ts
+const {variable name}: {variable type} = {variable value}
+```
+
+
+
+## Examples with data types in TS:
+let b: number = 123;
+
+let c: number = 123.456;
+
+let d: string = ‘Geeks’;
+
+let e: undefined = undefined;
+
+let f: boolean = true;
+
+let g: number = 0b111001; // Binary
+
+let h: number = 0o436; // Octal
+
+let i: number = 0xadf0d; // Hexa-Decimal
